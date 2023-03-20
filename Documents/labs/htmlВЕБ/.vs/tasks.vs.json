@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-htmlВЕБ",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-styles",
+      "appliesTo": "styles.css",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+﻿/* Variables for commonly used styles */
+$font-family: Arial, sans-serif;
+$font-size: 16px;
+$button-width: 120px;
+$button-height: 40px;
+$button-bg-color: red;
+$button-text-color: white;
+$primary-color: #008080;
+$secondary-color: #CCCCCC;
+$footer-color: #999;
+$background-color: #4A4E4D;
+$header-color: #c35214;
+$label-color: #333;
+
+// Header Styles
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-color;
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header {
+    border-bottom: 1px solid $secondary-color;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+}
+h1 {
+    margin-top: 0; /* add this line */
+    text-align: center; /* add this line */
+}
+
+/* Styles for the form */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 400px;
+    display: flex; /* add this line */
+    flex-direction: column; /* add this line */
+    align-items: center; /* add this line */
+    justify-content: center; /* add this line */
+    margin: auto; /* add this line */
+    margin-top: 150px;
+}
+
+label {
+    color: $label-color;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: $primary-color;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    width: auto;
+    margin-left: auto; /* add this line */
+    margin-right: auto; /* add this line */
+}
+
+input[type="submit"]:hover {
+    background-color: darken($primary-color, 10%);
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    button {
+        margin: 0 10px;
+    }
+}
+.main {
+    color: $button-text-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 150px;
+
+    p {
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+}
+
+    button {
+        background-color: $header-color;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: $footer-color;
+        color: #fff;
+        text-align: center;
+        padding: 1px;
+        font-size: 14px;
+    }

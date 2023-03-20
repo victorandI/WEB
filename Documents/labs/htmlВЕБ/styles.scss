@@ -1,0 +1,126 @@
+﻿$primary-color: #008080;
+$secondary-color: #CCCCCC;
+$footer-color: #999;
+$background-color: #4A4E4D;
+$header-color: #c35214;
+
+// Global Styles
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+}
+
+// Header Styles
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-color;
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header img {
+    border-radius: 50%;
+}
+.header {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
+// Car List Styles
+
+.car-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.car-list h2 {
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 0;
+}
+
+.car-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.car-list li {
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.car-list li h3 {
+    margin-top: 0;
+}
+
+.car-list li p {
+    margin-bottom: 5px;
+}
+
+.car-list li a {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.car-list li a img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+// User Info Styles
+
+.user-info {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+}
+
+.user-info img {
+border-radius: 50%;
+margin-bottom: 10px;
+}
+
+.user-info h2 {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+.user-info p {
+margin: 0;
+margin-bottom: 10px;
+font-size: 16px;
+}
+
+.footer {
+    background-color: $footer-color;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+

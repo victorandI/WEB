@@ -1,0 +1,92 @@
+﻿// Variables for reuse
+$button-width: 120px;
+$button-height: 40px;
+$button-bg-color: red;
+$button-text-color: white;
+$primary-color: #008080;
+$secondary-color: #CCCCCC;
+$footer-color: #999;
+$background-color: #4A4E4D;
+$header-color: #c35214;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+}
+
+// Header Styles
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-color;
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header img {
+    border-radius: 50%;
+}
+
+.header {
+    border-bottom: 1px solid $secondary-color;
+}
+
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    button {
+        margin: 0 10px;
+    }
+}
+
+button {
+    background-color: $header-color;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.main {
+    margin-bottom: 50px; /* adjust as needed */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $footer-color;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
