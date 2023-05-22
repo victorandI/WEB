@@ -1,0 +1,43 @@
+
+.main_head_rent_car {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 440px;
+    position: relative;
+  }
+  
+  .main_head_rent_car::before {
+    content: "";
+    background: url("../../../images/ryan2.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
+  }
+  
+  .main_section_rent_car {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .main_section_content_rent_car {
+    margin: 0 auto;
+    padding-left: 30px;
+  }
+  
+  .main_section_content_rent_car h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 40px;
+  }
+  

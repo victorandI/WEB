@@ -1,0 +1,132 @@
+.register > input {
+  font-family: "Asap", sans-serif;
+  display: block;
+  border-radius: 5px;
+  font-size: 14px;
+  background: gainsboro;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 15px -10px;
+}
+/* Стилі для екранів ширше 1200px */
+@media screen and (min-width: 1200px) {
+    .main_section_register {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+/* Стилі для екранів ширше 768px */
+@media screen and (min-width: 768px) {
+    .main_section_register {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .register {
+        width: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Стилі для екранів ширше 480px */
+@media screen and (min-width: 480px) {
+    .main_section_register {
+        padding-top: 100px;
+    }
+}
+
+/* Стилі для екранів ширше 320px */
+@media screen and (min-width: 320px) {
+    .register {
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+.main_head_register {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 650px;
+  position: relative;
+}
+
+.main_head_register::before {
+  content: "";
+  background: url("../../images/ryan2.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.85;
+}
+
+.main_section_register {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  position: relative;
+  text-align: center;
+}
+
+.register {
+    overflow: hidden;
+    background-color: white;
+    padding: 40px 30px 30px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 140px;
+    width: 400px;
+    -webkit-box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+    box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+}
+
+/* Для екранів ширше 768px */
+@media screen and (min-width: 768px) {
+    .register {
+        width: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Для екранів ширше 1200px */
+@media screen and (min-width: 1200px) {
+    .register {
+        width: 600px;
+    }
+}
+
+
+.register > h2 {
+  font-family: "Asap", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.register > button {
+  font-family: "Asap", sans-serif;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 100px;
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: -5px;
+  border-radius: 5px;
+  background-color: #f45b69;
+}
+
+.register > button:hover {
+  background-color: #f24353;
+}

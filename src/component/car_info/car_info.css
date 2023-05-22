@@ -1,0 +1,147 @@
+.car_list {
+    max-width: 1200px;
+    padding-top: 70px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .car_list_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 60px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .car_list_col2 {
+    margin: 20px;
+    width: 500px;
+    margin-left: 30px;
+  }
+  
+  .car_list_col2 h3 {
+    color: #151515;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .car_list_col2 p {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #9b9b9b;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    line-height: 24px;
+    margin-top: 17px;
+  }
+  
+  .car_list_col2 .divade_line {
+    background-clip: border-box;
+    background-color: #e1e1e1;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #333333;
+    height: 2.5px;
+    letter-spacing: 0.7px;
+    line-height: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+    width: 470px;
+  }
+  
+  .car_list_col2 .car_info {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 24px;
+    max-width: 41.6667%;
+  }
+  
+  .car_list_col2 .rent {
+    text-align: left;
+    border-radius: 4px;
+    color: white;
+    background-color: #1289d5;
+    padding: 15px;
+    margin-left: 370px;
+    
+  }
+
+  .delete_car_opacity{
+    opacity: 1;
+    text-align: center;
+    font-family: "Asap", sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 120px;
+    padding: 10px 0;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #f45b69;
+    
+  }
+  .delete_car_opacity:hover{
+    background-color: #f24353;
+    
+  }
+  .delete_car_unopacity{
+    opacity: 0;
+    position: absolute;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;800&display=swap');
+.container{
+  max-width: 1200px;
+    padding-top: 70px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.comment__box {
+    list-style-type: none;
+    padding-left: 0;
+}
+.comment__box .comment h6 {
+    font-weight: 800;
+}
+p {
+    font-size: 16px;
+}
+.comment {
+    animation: something .6s ease forwards;
+}
+
+@keyframes something {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+input[type='date'] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 16
+}
+
+

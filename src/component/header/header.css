@@ -1,0 +1,71 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .menu__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .menu__logo {
+    display: inline-block;
+    width: 125px;
+    height: 80px;
+    min-width: 140px;
+    background: url("../../images/logo.webp") center/contain no-repeat;
+  }
+  
+  .menu__options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .menu__options .option {
+    margin: 0 10px;
+    line-height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    color: grey;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .menu__options .option:hover {
+    color: black;
+    text-shadow: 1px 2px 2px  whitesmoke;
+  }
+  
+  .menu__options .option:active {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+  }
+  
+  @media (max-width: 768px) {
+    .menu__options {
+      display: none;
+    }
+  }
